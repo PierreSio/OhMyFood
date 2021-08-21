@@ -1,3 +1,44 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
 
+.main__header h1 {
+  text-align: center;
+}
+
+.about {
+  background: #f6f6f6;
+  text-align: center;
+  width: 100%;
+  padding: 40px 0;
+}
+.about h2 {
+  font-weight: bold;
+}
+.about p {
+  color: #4d4d4d;
+}
+
+.maps {
+  background: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 5px 5px 0px #dddddd;
+}
+
+.maps__search input {
+  border: none;
+  background: #eaeaea;
+  font-size: 1rem;
+  padding: 20px 5px 20px 5px;
+  margin-top: 5px;
+  text-align: center;
+  width: 150px;
+}
 
 /*# sourceMappingURL=style.css.map */
