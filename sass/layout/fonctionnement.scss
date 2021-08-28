@@ -1,10 +1,10 @@
-.operation {
+.fonctionnement {
     margin-bottom: 50px;
 }
-.operation__steps {
+.etape_fonctionnement {
     list-style-type: none;
 }
-.operation__steps li {
+.etape_fonctionnement li {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -17,7 +17,7 @@
     background-color: #f5f5f5;
 }
 @media screen and (min-width: 768px)
-.operation__steps {
+.etape_fonctionnement {
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
